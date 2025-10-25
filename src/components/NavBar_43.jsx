@@ -131,8 +131,18 @@ const Navbar_43 = () => {
                   </ul>
                 </div>
               </li>
-              <li className="menu-item">
-                <Link to="#">Blog</Link>
+              <li className="menu-item dropdown">
+                <Link to="#">Tutorials +</Link>
+                <div className="sub-menu-wrapper slideInUp">
+                  <ul className="sub-menu">
+                    <li className="menu-item">
+                      <Link to="/tutorials/t11_43">T11_ErrorExamplePage_43</Link>
+                    </li>
+                    <li className="menu-item">
+                      <Link to="/tutorials/t12_43">T12_UseStateBasicsPage_43</Link>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li className="menu-item">
                 <Link to="#">Contact</Link>

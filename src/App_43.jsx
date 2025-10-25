@@ -8,6 +8,10 @@ import {
   BookListPage_43,
   BlogSupaPage_43,
 } from "./pages";
+import {
+  T11_ErrorExamplePage_43,
+  T12_UseStateBasicsPage_43,
+} from "./pages/tutorials";
 
 const router = createBrowserRouter([
   {
@@ -37,6 +41,24 @@ const router = createBrowserRouter([
       {
         path: "booklist_43",
         element: <BookListPage_43 />,
+      },
+    ],
+  },
+  {
+    path: "/tutorials",
+    element: <HomeLayoutPage_43 />,
+    children: [
+      {
+        index: true,
+        element: <HomePage_43 />,
+      },
+      {
+        path: "t11_43",
+        element: <T11_ErrorExamplePage_43 />,
+      },
+      {
+        path: "t12_43",
+        element: <T12_UseStateBasicsPage_43 />,
       },
     ],
   },
