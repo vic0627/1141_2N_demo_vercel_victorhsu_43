@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export default styled.div`
+const Wrapper = styled.div`
   * {
     margin: 0;
     padding: 0;
@@ -27,7 +27,7 @@ export default styled.div`
     }
 
     .bookinfo {
-      font-family: "Roboto", "sans-serif";
+      font-family: 'Roboto', 'sans-serif';
       color: #444;
 
       h1 {
@@ -75,3 +75,5 @@ export default styled.div`
     }
   }
 `;
+
+export default Wrapper;

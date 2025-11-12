@@ -6,7 +6,7 @@ const T12_UseStateBasicsPage_43 = () => {
     <Wrapper>
       <div className='container'>
         <h4>Advanced React Hooks -- T12_43</h4>
-        <h5>VICTOR HSU, 213410243</h5>
+        <h5>Hsingtai Chung, 123456789</h5>
         <T12_43 />
       </div>
     </Wrapper>

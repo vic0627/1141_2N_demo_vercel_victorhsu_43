@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Wrapper from '../../assets/wrappers/Tutorials_43';
 
-const T12_xx = () => {
+const T12_43 = () => {
   // let count = 0
   const [count, setCount] = useState(0);
 
@@ -21,4 +21,4 @@ const T12_xx = () => {
   );
 };
 
-export default T12_xx;
+export default T12_43;

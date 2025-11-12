@@ -1,5 +1,5 @@
 import Wrapper from '../../assets/wrappers/Tutorials_43';
-const T11_xx = () => {
+const T11_43 = () => {
   let count = 0;
 
   const handleClick = () => {
@@ -17,4 +17,4 @@ const T11_xx = () => {
   );
 };
 
-export default T11_xx;
+export default T11_43;
